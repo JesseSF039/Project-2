@@ -1,55 +1,81 @@
-/* CSS rule for container displaying full height image */
-#header-image {
-	height: 100%;
-	
-	background-image: url("../images/background.jpg");	
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;		
-}
 
-/* CSS rule for container displaying header information */
+
+
 #header {	
 	max-width: 900px;
 	margin: 0 auto;    
 	padding: 200px;	
 }
 
-/* CSS rule for displaying main heading with larger font */
+
 h1 {
-	font-size: 500%;
-	color: white;
+	font-size: 300%;
+	text-align: center;
 
 }
 
-/* CSS rule for displaying introduction text boldfaced and with larger font */
-#intro {
-	font-weight: bold;	
-	font-size: 150%;
-	color: white;
+nav, footer {
+	color: #ffffff;
+	background-color: #0040ff;
+	height: 30px;}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;}
+nav li {
+	display: inline;
+	margin-left: 50px;
+	}
+nav li a {
+	color: #ffffff;}
+
+nav li a:hover {
+	color: #000000;}
+
+nav li a.current {
+	color: #000000;}
+	
+
+
+#more{display: none;}
+
+#more2{display: none;}
+
+#more3{display: none;}
+
+#more4{display: none;}
+
+#more5{display: none;}
+
+
+
+body {
+	background-image: url("../images/background.jpg");
+	background-position: center;
 }
 
-/* CSS rule for centering text inside a block element*/
+.wrapper {
+	width: 1000px;
+	margin: 25px auto 10px auto;
+	border: 5px solid #000000;
+	background-color: #ffffff;}
+
+
+
 .center {
 	text-align: center;
 }
 
-/* CSS rule for container displaying all content centered */
+
 #content {
 	max-width: 900px;
 	margin: 0 auto;
 }	
 
-/* CSS rule for displaying adventure items with a border at the bottom */
-.adventure {
-	border-bottom: 2px solid grey;
-}
 
-/* CSS rule for displaying images in a single line, centered, and with customized dimensions */
 img {
 	display: block;
 	margin: 0px auto;
-
-	width: 350px;
+	width: 400px;
 	height: 300px;
 }
